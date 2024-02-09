@@ -423,9 +423,6 @@ form{
     #texteaccueil{
         margin-top: 30px;
     }
-    #formulaire input[type=text] {
-        width: 100%;
-    }
     #formulaire input[type=submit] {
         display: none;
     }
