@@ -75,8 +75,12 @@ ul{
     margin-top: 0.62rem;
     margin-bottom: 3.5rem;
 }
+#menuprincipal{
+    width: 100%;
+}
 #menuprincipal ul{
     display: flex;
+    justify-content: end;
 }
 #menuprincipal ul li{
     margin-left: 60px;
@@ -329,7 +333,7 @@ form{
 }
 
 /****** Footer***********/
-.bg-pied{
+#bg-pied{
     background-color: var(--main-bg-color);
     display: flex;
 }
@@ -337,9 +341,8 @@ form{
     width: 50%;
     margin: 33px;
 }
-.colonne h4{
+.colonne ul li h4{
     font-size: 18px;
-    margin-bottom: 10px;
 }
 .colonne ul li{
     padding: 10px 0;
@@ -402,14 +405,14 @@ form{
         align-items: center;
     }
     #logoMenu img {
-        max-width: 15%;
+        max-width: 20%;
         margin-bottom: 0;
     }
     #menuprincipal ul {
-        justify-content: space-between;
+        justify-content: space-around;
     }
     #menuprincipal ul li a{
-        padding: 0 70px 10px;
+        padding: 0 40px 10px;
         border-bottom: 3px solid transparent;
         border-top: 0;
     }    
@@ -490,7 +493,7 @@ form{
     #part-activites a {
         width: 100%;
     }
-    .bg-pied {
+    #bg-pied {
         flex-direction: column;
     }
 }
