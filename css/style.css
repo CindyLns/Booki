@@ -182,6 +182,9 @@ form{
     padding: 30px;
     box-sizing: border-box;
 }
+.hebergements-and-populaires .fa-solid:hover {
+    transform: scale(1.5);
+}
 
 /****** Hebergements ***********/
 .hebergements {
