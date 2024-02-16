@@ -353,6 +353,10 @@ form{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    #logoMenu img {
+        max-width: 8%;
+        padding: 1.8rem 0 0;
+    }
     #filtres {
         flex-wrap: wrap;
     }
@@ -406,7 +410,6 @@ form{
     }
     #logoMenu img {
         max-width: 20%;
-        margin-bottom: 0;
     }
     #menuprincipal ul {
         justify-content: space-around;
