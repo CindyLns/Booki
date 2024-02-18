@@ -75,27 +75,27 @@ ul{
     margin-top: 0.62rem;
     margin-bottom: 3.5rem;
 }
-#menuprincipal{
+#menuPrincipal{
     width: 100%;
 }
-#menuprincipal ul{
+#menuPrincipal ul{
     display: flex;
     justify-content: end;
 }
-#menuprincipal ul li{
+#menuPrincipal ul li{
     margin-left: 60px;
 }
-#menuprincipal ul li a{
+#menuPrincipal ul li a{
     display: block;
     padding-top: 20px;
     border-top: 3px solid transparent;
 }    
-#menuprincipal ul li a:hover{
+#menuPrincipal ul li a:hover{
     color: var(--main-color);
     border-top: 3px solid #0065FC;
 }
-/******************Entete*****************/
-#texteaccueil h1{
+/******************heading*****************/
+#heading-text h1{
     padding: 10px 0;
 }
 form{
@@ -411,25 +411,25 @@ form{
     #logoMenu img {
         max-width: 20%;
     }
-    #menuprincipal ul {
+    #menuPrincipal ul {
         justify-content: space-around;
     }
-    #menuprincipal ul li a{
+    #menuPrincipal ul li a{
         padding: 0 40px 10px;
         border-bottom: 3px solid transparent;
         border-top: 0;
     }    
-    #menuprincipal ul li a:hover{
+    #menuPrincipal ul li a:hover{
         border-bottom: 3px solid #0065FC;
         border-top: 0;
     }
-    #menuprincipal ul li {
+    #menuPrincipal ul li {
         margin-left: 0; 
     }
-    #entete{
+    #heading{
         padding: 0 20px;
     }
-    #texteaccueil{
+    #heading-text{
         margin-top: 30px;
     }
     #formulaire input[type=text] {
