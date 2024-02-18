@@ -432,6 +432,9 @@ form{
     #texteaccueil{
         margin-top: 30px;
     }
+    #formulaire input[type=text] {
+        font-size: 15px;
+    }
     #formulaire input[type=submit] {
         display: none;
     }
@@ -458,6 +461,15 @@ form{
     #formulaire #icon-search .fa-solid {
         color: white;
         font-size: 17px;
+    }
+    .filtre{
+        padding: 0.8rem 0.3rem;
+    }
+    .filtre i {
+        font-size: 18px;
+    }
+    #filtres p {
+        font-size: 14px;
     }
     .hebergements-and-populaires {
         flex-flow: column-reverse;
