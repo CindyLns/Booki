@@ -191,6 +191,9 @@ form{
 .hebergements-and-populaires .fa-solid:hover {
     transform: scale(1.5);
 }
+.neutral-star:hover {
+    color: var(--main-color);
+}
 
 /****** Hebergements ***********/
 .hebergements {
